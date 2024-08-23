@@ -1,0 +1,280 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f3f3f3;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    
+}
+header ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    margin-right: 29px;  
+}
+header ul li{
+    list-style: none;
+    padding: 10px;
+}
+header ul li a{
+    text-decoration: none;
+    color: #2185d5;
+    font-size: 20px;
+    font-weight: 400;
+    transition: .5s;
+    
+}
+header h1{
+    margin-left: 50px;
+    color: #2185d5;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+header ul li a:hover{
+    color: #303841;
+}
+hr{
+    color:#303841 ;
+    }
+   
+.main{
+    background-image: url(me\ tree.png) ;
+     background-color: #2185d5;
+     height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+@media( max-width: 786px){
+    .main{
+        background-image: none;
+    }
+}
+
+.textes{
+    padding-top: 200px;
+    padding-left: 70px;
+
+}
+.textes h3{
+    font-size: 30px;
+    font-weight: 400;
+    color: #f3f3f3;
+    padding-bottom: 20px;
+}
+.textes h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #303841;
+    padding-bottom: 20px;
+}
+.textes p{
+    font-size: 30px;
+    font-weight: 400;
+    color: #f3f3f3;
+
+}
+.btn{
+    padding-left: 70px;
+    padding-top: 30px;
+}
+.btn button{
+    padding: 16px 20px;
+    border-radius: 40px;
+    border: none ;
+    background-color: #303841;
+    color: #f3f3f3;
+    transition: .5s;
+    cursor: pointer;
+}
+.btn button {
+    color: #f3f3f3;
+    font-size: 20px;
+    text-decoration: none;
+}
+.btn button:hover{
+    background-color: #303841;
+    transform: scale(1.1,1.1);
+}
+.icons{
+    padding-left: 70px;
+    padding-top: 30px;
+
+}
+.icons a{
+    font-size: 30px;
+    color: #f3f3f3;
+    padding: 8px;
+}
+.title{
+    text-align: center;
+    color: #2185d5;
+    font-size: 2.2EM;
+    font-weight: 800;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+}
+.card{
+    background-color: #f3f3f3;
+    width: 21.25em;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5) ;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    cursor: pointer;
+    transition: .5s;
+    height: 23.50em;
+}
+.card:hover{
+    transform: scale(1.1,1.1);
+}
+.icon{
+    color: #2185d5;
+    text-align: center;
+    font-size: 8em;
+}
+.info h3{
+    color: #2185d5;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+.info{
+    text-align: center;
+}
+.projects{
+    background-color: #2185d5;
+}
+.projects .title{
+    text-align: center;
+    color: #303841;
+    font-size: 2.2EM;
+    font-weight: 800;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.cardes-projects{
+     display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.cardes{
+   
+    background-color: #f3f3f3;
+    min-height: 14em;
+    width: 23em;
+    height: 16em;
+    overflow: hidden;
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid #f3f3f3;
+    transition: 0.7s ease;
+}
+.cardes:hover{
+    transform: scale(1.1);
+}
+.cardes .image:hover{
+    opacity: 0.9;
+}
+ .image img{
+    width: 100%;
+}
+.link{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 800;
+    margin-top: 10px;
+    width: 100%;
+   
+   
+}
+.link a{
+    text-decoration: none;
+    color: #2185d5;
+    
+    
+}
+.information{
+    padding: 0 20px;
+    padding-top: 10px;
+}
+.information p{
+    
+    font-weight: 600;
+
+}
+ .cardas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-wrap: wrap;
+    width: 100%;
+}
+.contect{
+    margin-bottom: 20px;
+}
+.cardos{
+background-color: #f3f3f3;
+width: 21.25em;
+box-shadow: 0 5px 10px rgba(0,0,0,0.5) ;
+border-radius: 10px;
+padding: 25px;
+margin: 15px;
+cursor: pointer;
+transition: .5s;
+height: 19.50em;
+
+}
+.cardos:hover{
+transform: scale(1.1,1.1);
+}
+.cardos p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top:   20px;
+}
+.footer{
+    background-color: #2185d5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer p{
+   color: #303841;
+   font-size: 1.4em;
+   font-weight: 600;
+   text-align: center;
+   margin-left: 12px;
+}
+.footer span{
+    
+     color: #f3f3f3;
+}
+.footer .icons{
+        padding-bottom: 14px;
+}
